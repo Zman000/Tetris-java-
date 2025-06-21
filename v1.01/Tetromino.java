@@ -22,4 +22,5 @@ public class Tetromino{
         }
         shape = rotated;
     }
+
 }
