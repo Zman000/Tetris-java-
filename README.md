@@ -25,6 +25,26 @@
 - No score-tracking method, no excitement 
 - No *Levels* or *Gravity* changes when clearing lines
 
+
+## V2.01
+## The following content is related to V2.01 of the game
+
+## New Features
+- A **copy()** function in **Tetromino.java** to copy the current piece and return a **Tetromino** for ghost piece implementation
+- A new class **GameStats.java** for handling score and level 
+- A new class **GameBoard.java** for handling movement of pieces, updating board, ghost piece, next piece and clearing lines among other functions
+- Increasing game *speed* (block fall speed) after every level up to some playable speed
+
+## Updates/Changes 
+- Graphics are handled solely by **GamePanel.java**
+- Moving Tetromino pieces variables from **GamePanel.java** to **GameBoard.java**
+- Upon completing a line, *score* is increased. After each **5** lines cleared, *level* is increased. Handled by **GameStats.java**
+
+## Limitations
+- Same color of all *Tetrominoes*, intoduces monotonous nature
+- No background music or sound effects for events
+- No option for changing color of background or pieces
+
 ## Requirements
 - Java 8 or higher
 - A basic terminal or IDE (VS Code / IntelliJ / Sublime Text)
